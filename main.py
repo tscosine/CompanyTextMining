@@ -5,9 +5,25 @@ import json
 import re
 import cparser as cp
 
+'''
+马化腾
+马云
+李彦宏
+丁磊
+张朝阳
+周鸿祎
+刘强东
+王志东
+梁建章
+张近东
+王兴
+沈亚
+莫天全
+雷军
+陈天桥
+李瑜
+'''
 #定义要爬取的微博大V的微博ID
-id='1259110474'
-
 id_dict = {'周鸿祎':'1708942053'}
 #设置代理IP
 proxy_addr="122.246.48.116:8010"
@@ -101,26 +117,27 @@ def get_weibo(id,file):
                         scheme=cards[j].get('scheme')                   #微博地址
                         text=mblog.get('text')
                         clean_text = text_filter(text)#微博内容
-                        if re.match('(\d+)-(\d+)-(\d+)',created_at):
-                            if int(re.match('(\d+)-(\d+)-(\d+)',created_at).group(1)) < 2013:
-                                break
+                        # if re.match('(\d+)-(\d+)-(\d+)',created_at):
+                        #     if int(re.match('(\d+)-(\d+)-(\d+)',created_at).group(1)) < 2013:
+                        #         break
                         if clean_text != None:
                             with open(file, 'a', encoding='utf-8') as fh:
                                 fh.write('发布时间：'+str(created_at)+'\n')
                                 fh.write('微博内容:'+clean_text+'\n')
                                 fh.write('-----------------------\n')
                                 count += 1
+                    print('Total:'+str(count))
                 i+=1
             else:
-                break
+                continue
         except Exception as e:
             print(e)
             pass
     print('存储'+str(count)+'条数据')
 
 if __name__=="__main__":
-    id = id_dict['周鸿祎']
-    file=id+".txt"
+    uid = id_dict['周鸿祎']
+    file=uid+".txt"
     f = open(file,'w')
-    get_userInfo(id)
-    get_weibo(id,file)
+    get_userInfo(uid)
+    get_weibo(uid,file)
