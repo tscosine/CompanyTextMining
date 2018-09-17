@@ -1,0 +1,2 @@
+cut_all : False
+data_path : '/home/cosine/mygit/weibocrawler/data'
