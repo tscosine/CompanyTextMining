@@ -25,6 +25,16 @@ class PersonalQouta:
 		result += 'Total:'
 		result += str(total)+'\n'
 		return result
+	def word_frequency(self):
+		result = ''
+		for key in self.dataset.keys():
+			result += key + ':'
+			qouta_all = ' '.join(self.dataset[key])
+			cut_result = jb.cut(qouta_all)
+			# result += ','.join(cut_result[:10])
+		return result
+
+
 class DataSet:
 	target_name = ['马化腾', '马云', '李彦宏', '丁磊', '张朝阳',
 				   '周鸿祎', '刘强东', '王志东', '梁建章', '张近东',
@@ -43,6 +53,15 @@ class DataSet:
 			result += self.dataset[name].count()
 			result += '######################\n'
 		return result
+	def word_frequency(self):
+		result = ''
+		for name in self.target_name:
+			result += name + ':' + '\n'
+			result += self.dataset[name].word_frequency()
+			result += '######################\n'
+		return result
+
+
 def loadExcelData(path):
 	result = []
 	for file in os.listdir(path):
@@ -61,14 +80,7 @@ if __name__ == '__main__':
 	excel_data = loadExcelData(cf['data_path'])
 	dataset = DataSet()
 	dataset.readExcelData(excel_data)
-	with open('./count.txt','w') as f:
-		f.write(dataset.count())
-	print(dataset.count())
-	# workbook = xlrd.open_workbook('/home/cosine/mygit/weibocrawler/data/1.xls')
-	# for sheetname in workbook.sheet_names():
-	# 	sheet = workbook.sheet_by_name(sheetname)
-	# 	row = sheet.row_values(3)
-	# 	print(row)
+	print(dataset.word_frequency())
 
 	# seg_list = jb.cut("我来到北京清华大学", cut_all=cf['cut_all'])
 	# for seg in seg_list:
