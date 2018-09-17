@@ -3,8 +3,8 @@
 import urllib.request
 import json
 import re
-import cparser as cp
-
+import xlrd
+import xlwt
 '''
 马化腾
 马云
@@ -24,7 +24,9 @@ import cparser as cp
 李瑜
 '''
 #定义要爬取的微博大V的微博ID
-id_dict = {'周鸿祎':'1708942053'}
+id_dict = {'周鸿祎':'1708942053','刘强东':'1866402485','王志东':'1644471760',
+           '梁建章':'3514741113','王兴':'1616192700','雷军':'1749127163',
+           '李瑜':'1742912084'}
 #设置代理IP
 proxy_addr="122.246.48.116:8010"
 
@@ -70,7 +72,6 @@ def text_filter(text):
     for word in black_list:
         if re.search(word,text):
             return None
-
     pattern1 = re.compile('\(.*?\)')
     pattern2 = re.compile('【.*?】')
     pattern3 = re.compile('<.*?>')
@@ -94,9 +95,11 @@ def text_filter(text):
 
 
 #获取微博内容信息,并保存到文本中，内容包括：每条微博的内容、微博详情页面地址、点赞数、评论数、转发数等
-def get_weibo(id,file):
+def get_weibo(uname,id,sheet):
     i=1
     count = 0
+    sheet_row = 0
+    default_year = 2018
     while True:
         url='https://m.weibo.cn/api/container/getIndex?type=uid&value='+id
         weibo_url='https://m.weibo.cn/api/container/getIndex?type=uid&value='+id+'&containerid='+get_containerid(url)+'&page='+str(i)
@@ -110,34 +113,97 @@ def get_weibo(id,file):
                     card_type=cards[j].get('card_type')
                     if(card_type==9):
                         mblog=cards[j].get('mblog')
-                        attitudes_count=mblog.get('attitudes_count')    #点赞数
-                        comments_count=mblog.get('comments_count')      #评论数
+                        # attitudes_count=mblog.get('attitudes_count')    #点赞数
+                        # comments_count=mblog.get('comments_count')      #评论数
+                        # reposts_count=mblog.get('reposts_count')        #转发数
+                        # scheme=cards[j].get('scheme')                   #微博地址
                         created_at=mblog.get('created_at')              #创建时间
-                        reposts_count=mblog.get('reposts_count')        #转发数
-                        scheme=cards[j].get('scheme')                   #微博地址
                         text=mblog.get('text')
                         clean_text = text_filter(text)#微博内容
-                        # if re.match('(\d+)-(\d+)-(\d+)',created_at):
-                        #     if int(re.match('(\d+)-(\d+)-(\d+)',created_at).group(1)) < 2013:
-                        #         break
+                        date_pattern = re.compile('(\d+)-(\d+)-(\d+)')
+                        year = default_year
+                        if re.search(date_pattern,created_at):
+                            year = re.search(date_pattern,created_at).group(1)
+                        if int(year) < 2013:
+                            return
                         if clean_text != None:
-                            with open(file, 'a', encoding='utf-8') as fh:
-                                fh.write('发布时间：'+str(created_at)+'\n')
-                                fh.write('微博内容:'+clean_text+'\n')
-                                fh.write('-----------------------\n')
-                                count += 1
+                            sheet.write(sheet_row,0,uname)
+                            sheet.write(sheet_row,1,year)
+                            sheet.write(sheet_row,2,clean_text)
+                            sheet_row += 1
+                            count += 1
                     print('Total:'+str(count))
-                i+=1
+                i += 1
             else:
                 continue
         except Exception as e:
             print(e)
-            pass
-    print('存储'+str(count)+'条数据')
+            return
 
+def get_portals_weibo(id,sheet):
+    uname = ['马化腾','马云','李彦宏','丁磊','张朝阳','周鸿祎','刘强东','王志东','梁建章','张近东',
+             '王兴','沈亚','莫天全','雷军','陈天桥','李瑜']
+    pattern = re.compile('马化腾|马云|李彦宏|丁磊|张朝阳|周鸿祎|刘强东|王志东|梁建章|张近东|王兴|沈亚|莫天全|雷军|陈天桥|李瑜')
+    i=1
+    count = 0
+    sheet_row = 0
+    default_year = 2018
+    while True:
+        url='https://m.weibo.cn/api/container/getIndex?type=uid&value='+id
+        weibo_url='https://m.weibo.cn/api/container/getIndex?type=uid&value='+id+'&containerid='+get_containerid(url)+'&page='+str(i)
+        try:
+            data=use_proxy(weibo_url,proxy_addr)
+            content=json.loads(data).get('data')
+            cards=content.get('cards')
+            if(len(cards)>0):
+                for j in range(len(cards)):
+                    # print("-----正在爬取第"+str(i)+"页，第"+str(j)+"条微博------")
+                    card_type=cards[j].get('card_type')
+                    if(card_type==9):
+                        mblog=cards[j].get('mblog')
+                        created_at=mblog.get('created_at')              #创建时间
+                        text=mblog.get('text')
+                        clean_text = text_filter(text)#微博内容
+                        date_pattern = re.compile('(\d+)-(\d+)-(\d+)')
+                        year = default_year
+                        if re.search(date_pattern,created_at):
+                            year = re.search(date_pattern,created_at).group(1)
+                        if int(year) < 2013:
+                            return
+                        if clean_text != None:
+                            if re.search(pattern,clean_text):
+                                print(clean_text)
+                                sheet.write(sheet_row,0,re.search(pattern,clean_text).group())
+                                sheet.write(sheet_row,1,year)
+                                sheet.write(sheet_row,2,clean_text)
+                                sheet_row += 1
+                                count += 1
+                    # print('Total:'+str(count))
+                i += 1
+            else:
+                continue
+        except Exception as e:
+            print(e)
+            return
+
+def search_portals_weibo():
+    partals_id=['1649173367',#每日经济新闻
+                '1956700750',#电商报
+                '1974561081' #网易财经
+                ]
+    for id in partals_id:
+        workbook = xlwt.Workbook(encoding='ascii')
+        worksheet = workbook.add_sheet('My_Worksheet')
+        get_portals_weibo(id,worksheet)
+        workbook.save(id+'.xls')
+def search_personal_weibo():
+    uname = '李瑜'
+    uid = id_dict[uname]
+    workbook = xlwt.Workbook(encoding = 'ascii')
+    worksheet = workbook.add_sheet('My_Worksheet')
+    # get_userInfo(uid)
+    get_weibo(uname,uid,worksheet)
+    workbook.save(uname+'.xls')
 if __name__=="__main__":
-    uid = id_dict['周鸿祎']
-    file=uid+".txt"
-    f = open(file,'w')
-    get_userInfo(uid)
-    get_weibo(uid,file)
+    # search_personal_weibo()
+    search_portals_weibo()
