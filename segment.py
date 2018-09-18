@@ -1,6 +1,7 @@
 # -*- coding: utf-8 -*-
 
 import jieba as jb
+import jieba.analyse
 import yaml
 import os
 import xlrd
@@ -13,8 +14,10 @@ class PersonalQouta:
 		self.name = name
 		self.dataset = {'2013':[],'2014':[],'2015':[],
 						'2016':[],'2017':[],'2018':[]}
+
 	def add_qouta(self,year,qouta):
 		self.dataset[str(int(year))].append(qouta)
+
 	def count(self):
 		result = ''
 		total = 0
@@ -25,13 +28,26 @@ class PersonalQouta:
 		result += 'Total:'
 		result += str(total)+'\n'
 		return result
+
 	def word_frequency(self):
+		with open('./config.yml','r') as f:
+			config = yaml.load(f.read())
 		result = ''
 		for key in self.dataset.keys():
-			result += key + ':'
-			qouta_all = ' '.join(self.dataset[key])
-			cut_result = jb.cut(qouta_all)
-			# result += ','.join(cut_result[:10])
+			result += key + ':'+'\n'
+			content = ''.join(self.dataset[key])
+			allowPOS = ('n','v')
+			jieba.analyse.set_stop_words("./stopwords.txt")
+			if config['withWeight']:
+				topk_word = jieba.analyse.extract_tags(content,withWeight=True,
+					topK=config['Topk'],allowPOS=allowPOS)
+				for word in topk_word:
+					result += word[0]+':'+str(word[1])+'\n'
+			else:
+				topk_word = jieba.analyse.extract_tags(content,withWeight=False,
+					topK=config['Topk'],allowPOS=allowPOS)
+				result += ' '.join(topk_word)
+				result += '\n'
 		return result
 
 
@@ -43,9 +59,11 @@ class DataSet:
 		self.dataset = {}
 		for name in self.target_name:
 			self.dataset[name] = PersonalQouta(name)
+
 	def readExcelData(self,excel_data):
 		for row in excel_data:
 			self.dataset[row[0]].add_qouta(row[1],row[2])
+
 	def count(self):
 		result = ''
 		for name in self.target_name:
@@ -53,6 +71,7 @@ class DataSet:
 			result += self.dataset[name].count()
 			result += '######################\n'
 		return result
+
 	def word_frequency(self):
 		result = ''
 		for name in self.target_name:
@@ -76,12 +95,10 @@ def loadExcelData(path):
 
 if __name__ == '__main__':
 	with open('./config.yml') as f:
-		cf = yaml.load(f.read())
-	excel_data = loadExcelData(cf['data_path'])
+		config = yaml.load(f.read())
+	excel_data = loadExcelData(config['data_path'])
 	dataset = DataSet()
 	dataset.readExcelData(excel_data)
-	print(dataset.word_frequency())
-
-	# seg_list = jb.cut("我来到北京清华大学", cut_all=cf['cut_all'])
-	# for seg in seg_list:
-	# 	print(seg)
+	wf = dataset.word_frequency()
+	with open(config['output_path'],'w') as f:
+		f.write(wf)

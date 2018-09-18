@@ -1,2 +1,4 @@
-cut_all : False
-data_path : '/home/cosine/mygit/weibocrawler/data'
+Topk: 20
+withWeight: False
+data_path: '/home/cosine/mygit/weibocrawler/data'
+output_path: '/home/cosine/mygit/weibocrawler/topkword.txt'
