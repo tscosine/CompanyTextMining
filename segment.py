@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#-*-coding:utf-8-*-
 
 import jieba as jb
 import jieba.analyse
@@ -51,10 +51,16 @@ class PersonalQouta:
 		return result
 
 
+class animal:
+	def __init__(self):
+		pass
+	def barking(self):
+		print('wangwangwang!!!')
+
 class DataSet:
-	target_name = ['马化腾', '马云', '李彦宏', '丁磊', '张朝阳',
-				   '周鸿祎', '刘强东', '王志东', '梁建章', '张近东',
-				   '王兴', '沈亚', '莫天全', '雷军', '陈天桥', '李瑜','张勇']
+	target_name = [u'马化腾', u'马云', u'李彦宏', u'丁磊', u'张朝阳',
+				   u'周鸿祎', u'刘强东', u'王志东', u'梁建章', u'张近东',
+				   u'王兴', u'沈亚', u'莫天全', u'雷军', u'陈天桥', u'李瑜',u'张勇']
 	def __init__(self):
 		self.dataset = {}
 		for name in self.target_name:
@@ -92,7 +98,6 @@ def loadExcelData(path):
 				result.append(row)
 	return result
 
-
 if __name__ == '__main__':
 	with open('./config.yml') as f:
 		config = yaml.load(f.read())
@@ -100,5 +105,6 @@ if __name__ == '__main__':
 	dataset = DataSet()
 	dataset.readExcelData(excel_data)
 	wf = dataset.word_frequency()
+	str = wf.encode('utf-8')
 	with open(config['output_path'],'w') as f:
-		f.write(wf)
+		f.write(str)
