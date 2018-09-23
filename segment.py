@@ -1,6 +1,5 @@
 #-*-coding:utf-8-*-
 
-import jieba as jb
 import jieba.analyse
 import yaml
 import os
