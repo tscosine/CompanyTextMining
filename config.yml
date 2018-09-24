@@ -2,3 +2,4 @@ Topk: 20
 withWeight: False
 data_path: '/home/cosine/mygit/weibocrawler/data'
 output_path: '/home/cosine/mygit/weibocrawler/topkword.txt'
+count_path: '/home/cosine/mygit/weibocrawler/count.txt'

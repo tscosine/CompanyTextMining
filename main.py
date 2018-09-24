@@ -3,7 +3,6 @@
 import urllib.request
 import json
 import re
-import xlrd
 import xlwt
 '''
 马化腾
