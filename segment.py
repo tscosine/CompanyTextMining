@@ -105,7 +105,9 @@ if __name__ == '__main__':
 	dataset.readExcelData(excel_data)
 
 	with open(config['count_path'],'w') as f:
-		f.write(dataset.count().encode('utf-8'))
+		str = dataset.count()
+		f.write(str)
 
 	with open(config['output_path'],'w') as f:
-		f.write(dataset.word_frequency().encode('utf-8'))
+		str = dataset.word_frequency()
+		f.write(str)
