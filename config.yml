@@ -1,5 +1,6 @@
 Topk: 20
-withWeight: False
-data_path: '/home/cosine/mygit/weibocrawler/data'
-output_path: '/home/cosine/mygit/weibocrawler/topkword.txt'
-count_path: '/home/cosine/mygit/weibocrawler/count.txt'
+withWeight: True
+data_path: './data'
+output_path: './topkword.txt'
+count_path: './count.txt'
+all_year_word_path: './allyear.txt'

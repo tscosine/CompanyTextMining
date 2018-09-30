@@ -18,10 +18,10 @@ if __name__ == "__main__":
         print(txt)
         count = 0
         # name  = re.search(pattern,txt).group(1)
-        uname = u'李彦宏'
+        uname = u'雷军'
         year  = re.search(pattern,txt).group(1)
         print(year)
-        file  = codecs.open(os.path.join(text_path,txt),encoding='utf-8').read()
+        file  = codecs.open(os.path.join(text_path,txt),encoding='GBK').read()
         flag  = False
         say_word    = u'：'+'|'+':'+'|'+u'指出'+'|'+u'表示'+'|'+u'认为'+\
                       '|'+u'说'+'|'+u'告诉'+'|'+u'提到'+'|'+u'坦言'+\

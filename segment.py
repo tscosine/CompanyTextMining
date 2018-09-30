@@ -4,7 +4,6 @@ import jieba.analyse
 import yaml
 import os
 import xlrd
-import numpy as np
 
 
 
@@ -41,7 +40,7 @@ class PersonalQouta:
 				topk_word = jieba.analyse.extract_tags(content,withWeight=True,
 					topK=config['Topk'],allowPOS=allowPOS)
 				for word in topk_word:
-					result += word[0]+':'+str(word[1])+'\n'
+					result += (word[0]+':%.2f\n'%word[1])
 			else:
 				topk_word = jieba.analyse.extract_tags(content,withWeight=False,
 					topK=config['Topk'],allowPOS=allowPOS)
@@ -49,12 +48,9 @@ class PersonalQouta:
 				result += '\n'
 		return result
 
+	def get_content(self,year):
+		return ''.join(self.dataset[year])
 
-class animal:
-	def __init__(self):
-		pass
-	def barking(self):
-		print('wangwangwang!!!')
 
 class DataSet:
 	target_name = [u'马化腾', u'马云', u'李彦宏', u'丁磊', u'张朝阳',
@@ -85,6 +81,29 @@ class DataSet:
 			result += '######################\n'
 		return result
 
+	def all_word_frequency(self):
+		with open('./config.yml','r') as f:
+			config = yaml.load(f.read())
+		years   = ['2013','2014','2015','2016','2017','2018']
+		result  = ''
+		for year in years:
+			content = ''
+			result += year+':\n'
+			for name in self.target_name:
+				content += self.dataset[name].get_content(year)
+			allowPOS = ('n', 'v')
+			jieba.analyse.set_stop_words("./stopwords.txt")
+			if config['withWeight']:
+				topk_word = jieba.analyse.extract_tags(
+					content, withWeight=True,topK=config['Topk'], allowPOS=allowPOS)
+				for word in topk_word:
+					result += (word[0] + ':%.2f\n' % word[1])
+			else:
+				topk_word = jieba.analyse.extract_tags(
+					content, withWeight=False,topK=config['Topk'], allowPOS=allowPOS)
+				result += ' '.join(topk_word)
+				result += '\n'
+		return result
 
 def loadExcelData(path):
 	result = []
@@ -105,9 +124,10 @@ if __name__ == '__main__':
 	dataset.readExcelData(excel_data)
 
 	with open(config['count_path'],'w') as f:
-		str = dataset.count()
-		f.write(str)
+		f.write(dataset.count())
 
 	with open(config['output_path'],'w') as f:
-		str = dataset.word_frequency()
-		f.write(str)
+		f.write(dataset.word_frequency())
+
+	with open(config['all_year_word_path'],'w') as f:
+		f.write(dataset.all_word_frequency())
