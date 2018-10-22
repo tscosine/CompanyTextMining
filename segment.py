@@ -4,9 +4,9 @@ import jieba.analyse
 import yaml
 import os
 import xlrd
+import xlwt
 
-
-
+year_list = ['2013','2014','2015','2016','2017','2018']
 class PersonalQouta:
 	def __init__(self,name):
 		self.name = name
@@ -17,35 +17,27 @@ class PersonalQouta:
 		self.dataset[str(int(year))].append(qouta)
 
 	def count(self):
-		result = ''
+		result = []
 		total = 0
-		for key in self.dataset.keys():
-			result += key+':'
-			result += str(self.dataset[key].__len__())+'\n'
+		for key in year_list:
+			result.append(self.dataset[key].__len__())
 			total += self.dataset[key].__len__()
-		result += 'Total:'
-		result += str(total)+'\n'
+		result.append(total)
 		return result
 
 	def word_frequency(self):
-		with open('./config.yml','r') as f:
-			config = yaml.load(f.read())
-		result = ''
-		for key in self.dataset.keys():
-			result += key + ':'+'\n'
+		result = []
+		for key in year_list:
+			result_a_year = []
 			content = ''.join(self.dataset[key])
 			allowPOS = ('n','v')
 			jieba.analyse.set_stop_words("./stopwords.txt")
-			if config['withWeight']:
-				topk_word = jieba.analyse.extract_tags(content,withWeight=True,
-					topK=config['Topk'],allowPOS=allowPOS)
-				for word in topk_word:
-					result += (word[0]+':%.2f\n'%word[1])
-			else:
-				topk_word = jieba.analyse.extract_tags(content,withWeight=False,
-					topK=config['Topk'],allowPOS=allowPOS)
-				result += ' '.join(topk_word)
-				result += '\n'
+			topk_word = jieba.analyse.extract_tags(content,withWeight=True,
+				topK=config['Topk'],allowPOS=allowPOS)
+			for word in topk_word:
+				# result_a_year.append([word[0],':%.2f\n'%word[1]])
+				result_a_year.append(word[0:2])
+			result.append(result_a_year)
 		return result
 
 	def get_content(self,year):
@@ -66,43 +58,31 @@ class DataSet:
 			self.dataset[row[0]].add_qouta(row[1],row[2])
 
 	def count(self):
-		result = ''
+		result = {}
 		for name in self.target_name:
-			result += name+':'+'\n'
-			result += self.dataset[name].count()
-			result += '######################\n'
+			result[name] = self.dataset[name].count()
 		return result
 
 	def word_frequency(self):
-		result = ''
+		result = {}
 		for name in self.target_name:
-			result += name + ':' + '\n'
-			result += self.dataset[name].word_frequency()
-			result += '######################\n'
+			result[name] = self.dataset[name].word_frequency()
 		return result
 
 	def all_word_frequency(self):
-		with open('./config.yml','r') as f:
-			config = yaml.load(f.read())
-		years   = ['2013','2014','2015','2016','2017','2018']
-		result  = ''
-		for year in years:
+		result  = []
+		for year in year_list:
+			result_a_year = []
 			content = ''
-			result += year+':\n'
 			for name in self.target_name:
 				content += self.dataset[name].get_content(year)
 			allowPOS = ('n', 'v')
 			jieba.analyse.set_stop_words("./stopwords.txt")
-			if config['withWeight']:
-				topk_word = jieba.analyse.extract_tags(
-					content, withWeight=True,topK=config['Topk'], allowPOS=allowPOS)
-				for word in topk_word:
-					result += (word[0] + ':%.2f\n' % word[1])
-			else:
-				topk_word = jieba.analyse.extract_tags(
-					content, withWeight=False,topK=config['Topk'], allowPOS=allowPOS)
-				result += ' '.join(topk_word)
-				result += '\n'
+			topk_word = jieba.analyse.extract_tags(
+				content, withWeight=True,topK=config['Topk'], allowPOS=allowPOS)
+			for word in topk_word:
+				result_a_year.append(word[0:2])
+			result.append(result_a_year)
 		return result
 
 def loadExcelData(path):
@@ -123,11 +103,57 @@ if __name__ == '__main__':
 	dataset = DataSet()
 	dataset.readExcelData(excel_data)
 
-	with open(config['count_path'],'w') as f:
-		f.write(dataset.count().encode('utf-8'))
+	workbook = xlwt.Workbook(encoding = 'utf-8')
+	worksheet_count = workbook.add_sheet('count')
+	worksheet_frequency = workbook.add_sheet('frequency')
+	worksheet_frequency_by_year = workbook.add_sheet('frequency_annual')
 
-	with open(config['output_path'],'w') as f:
-		f.write(dataset.word_frequency().encode('utf-8'))
+	count_dict = dataset.count()
+	row = 0
+	column = 0
+	for key in count_dict.keys():
+		worksheet_count.write(row,column,key)
+		column += 1
+		for c in count_dict[key]:
+			worksheet_count.write(row, column, c)
+			column +=1
+		row += 1
+		column = 0
 
-	with open(config['all_year_word_path'],'w') as f:
-		f.write(dataset.all_word_frequency().encode('utf-8'))
+	word_frequency_dict = dataset.word_frequency()
+	row = 0
+	column = 0
+	for key in word_frequency_dict.keys():
+		worksheet_frequency.write(row,column,key)
+		column += 1
+		for year in year_list:
+			worksheet_frequency.write(row, column, year)
+			row += 2
+		row -= 2*len(year_list)
+		for frequency_list in word_frequency_dict[key]:
+			column = 2
+			for tuple in frequency_list:
+				worksheet_frequency.write(row, column, tuple[0])
+				worksheet_frequency.write(row+1, column, ':%.2f\n' % tuple[1])
+				column += 1
+			row += 2
+
+		column = 0
+		row += 1
+
+	annual_word_frequency_list = dataset.all_word_frequency()
+	row = 0
+	column = 0
+	for year in year_list:
+		worksheet_frequency_by_year.write(row,column,year)
+		row += 2
+	row = 0
+	for annual_list in annual_word_frequency_list:
+		column = 1
+		for tuple in annual_list:
+			worksheet_frequency_by_year.write(row, column, tuple[0])
+			worksheet_frequency_by_year.write(row + 1, column, ':%.2f\n' % tuple[1])
+			column += 1
+		row += 2
+
+	workbook.save('./Excel_Workbook.xls')

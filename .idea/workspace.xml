@@ -2,43 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="325d83be-e0f7-459b-9499-5b815e7a8875" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analysetext.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysetext.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/马化腾.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/segment.py" beforeDir="false" afterPath="$PROJECT_DIR$/segment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿1ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿2ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿3ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿4ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿5ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014(3).txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿1ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿2ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿4ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿5ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿6ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿7ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿8ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿9ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿1ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿2ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿3ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿4ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿5ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿6ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿1ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿2ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿3ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿4ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿5ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿6ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2017ú¿1ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2017ú¿2ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2017ú¿3ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2018ú¿1ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2018ú¿2ú⌐.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2018ú¿3ú⌐.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -126,7 +90,7 @@
     <session id="-431194585">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
@@ -148,16 +112,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="138" />
+          <entry key="py" value="1492" />
           <entry key="txt" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="138" />
+          <entry key="Python" value="1492" />
         </counts>
       </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
@@ -165,12 +131,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/segment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="-526">
+              <caret line="100" column="36" lean-forward="true" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
               <folding>
                 <element signature="e#21#41#0" expanded="true" />
-                <marker date="1540224205609" expanded="true" signature="328:329" ph="..." />
-                <marker date="1540224205609" expanded="true" signature="328:331" ph="..." />
+                <marker date="1540227380033" expanded="true" signature="394:397" ph="..." />
               </folding>
             </state>
           </provider>
@@ -357,7 +322,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1841" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18466704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -484,12 +448,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/segment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="-526">
+          <caret line="100" column="36" lean-forward="true" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
           <folding>
             <element signature="e#21#41#0" expanded="true" />
-            <marker date="1540224205609" expanded="true" signature="328:329" ph="..." />
-            <marker date="1540224205609" expanded="true" signature="328:331" ph="..." />
+            <marker date="1540227380033" expanded="true" signature="394:397" ph="..." />
           </folding>
         </state>
       </provider>
