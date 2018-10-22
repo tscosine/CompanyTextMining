@@ -18,7 +18,7 @@ if __name__ == "__main__":
         print(txt)
         count = 0
         # name  = re.search(pattern,txt).group(1)
-        uname = u'雷军'
+        uname = u'刘强东'
         year  = re.search(pattern,txt).group(1)
         print(year)
         file  = codecs.open(os.path.join(text_path,txt),encoding='GBK').read()

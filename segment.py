@@ -55,7 +55,7 @@ class PersonalQouta:
 class DataSet:
 	target_name = [u'马化腾', u'马云', u'李彦宏', u'丁磊', u'张朝阳',
 				   u'周鸿祎', u'刘强东', u'王志东', u'梁建章', u'张近东',
-				   u'王兴', u'沈亚', u'莫天全', u'雷军', u'陈天桥', u'李瑜',u'张勇']
+				   u'王兴', u'沈亚', u'莫天全', u'雷军', u'陈天桥', u'李瑜',u'张勇',u'齐向东']
 	def __init__(self):
 		self.dataset = {}
 		for name in self.target_name:
@@ -124,10 +124,10 @@ if __name__ == '__main__':
 	dataset.readExcelData(excel_data)
 
 	with open(config['count_path'],'w') as f:
-		f.write(dataset.count())
+		f.write(dataset.count().encode('utf-8'))
 
 	with open(config['output_path'],'w') as f:
-		f.write(dataset.word_frequency())
+		f.write(dataset.word_frequency().encode('utf-8'))
 
 	with open(config['all_year_word_path'],'w') as f:
-		f.write(dataset.all_word_frequency())
+		f.write(dataset.all_word_frequency().encode('utf-8'))

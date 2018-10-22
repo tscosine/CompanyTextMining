@@ -3,43 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="325d83be-e0f7-459b-9499-5b815e7a8875" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysetext.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysetext.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/count.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/马化腾.xlsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/segment.py" beforeDir="false" afterPath="$PROJECT_DIR$/segment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/stopwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2014.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2015.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2018.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2018_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2018_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2018_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/topkword.txt" beforeDir="false" afterPath="$PROJECT_DIR$/topkword.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿1ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿2ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿3ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿4ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿5ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014(3).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿1ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿2ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿4ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿5ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿6ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿7ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿8ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿9ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿1ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿2ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿3ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿4ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿5ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿6ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿1ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿2ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿3ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿4ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿5ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿6ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2017ú¿1ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2017ú¿2ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2017ú¿3ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2018ú¿1ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2018ú¿2ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2018ú¿3ú⌐.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,17 +123,64 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+    <session id="-431194585">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+          <entry key="txt" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="14" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="138" />
+          <entry key="txt" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="138" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/segment.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
+            <state relative-caret-position="198">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="e#21#41#0" expanded="true" />
+                <marker date="1540224205609" expanded="true" signature="328:329" ph="..." />
+                <marker date="1540224205609" expanded="true" signature="328:331" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/analysetext.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -151,7 +197,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stopwords.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
+            <state relative-caret-position="594">
               <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
@@ -165,14 +211,16 @@
       <find>-　　</find>
       <find>?</find>
       <find>他</find>
-      <find>　　</find>
       <find>np</find>
       <find>xlrd</find>
       <find>numpy</find>
+      <find>王兴</find>
+      <find>　　</find>
     </findStrings>
     <replaceStrings>
       <replace>丁磊</replace>
       <replace>李彦宏</replace>
+      <replace>\n王兴</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -195,12 +243,24 @@
         <option value="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_9.txt" />
         <option value="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_7.txt" />
         <option value="$PROJECT_DIR$/text/┴║╜¿╒┬_2017ú¿11ú⌐.txt" />
-        <option value="$PROJECT_DIR$/analysetext.py" />
         <option value="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿5ú⌐.txt" />
         <option value="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿8ú⌐.txt" />
         <option value="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿7ú⌐.txt" />
         <option value="$PROJECT_DIR$/stopwords.txt" />
         <option value="$PROJECT_DIR$/config.yml" />
+        <option value="$PROJECT_DIR$/text/╒┼╙┬_2016ú¿3ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╒┼╙┬_2013ú¿2ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╒┼╙┬_2014ú¿5ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╒┼╙┬_2018ú¿3ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╞δ╧≥╢½_2013ú¿3ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╞δ╧≥╢½_2016ú¿4ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╞δ╧≥╢½_2013ú¿5ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/═⌡╨╦_2016ú¿5ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/═⌡╨╦_2016ú¿1ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/└ε╤σ║Ω_2014ú¿1ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/└ε╤σ║Ω_2014ú¿4ú⌐.txt" />
+        <option value="$PROJECT_DIR$/analysetext.py" />
+        <option value="$PROJECT_DIR$/text/┴⌡╟┐╢½_2016ú¿7ú⌐.txt" />
         <option value="$PROJECT_DIR$/segment.py" />
       </list>
     </option>
@@ -212,10 +272,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="931" />
+    <option name="x" value="930" />
     <option name="y" value="28" />
-    <option name="width" value="921" />
-    <option name="height" value="1053" />
+    <option name="width" value="911" />
+    <option name="height" value="1051" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -227,8 +287,8 @@
         <subPane>
           <expand>
             <path>
-              <item name="weibocrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weibocrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="CompanyTextMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanyTextMining" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,7 +359,7 @@
     <frame x="0" y="27" width="1841" height="1053" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17571348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18466704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -338,13 +398,7 @@
     <entry file="file://$PROJECT_DIR$/text/丁磊_2014(3).txt" />
     <entry file="file://$PROJECT_DIR$/text/丁磊_2013(2).txt" />
     <entry file="file://$PROJECT_DIR$/text/丁磊_2014(4).txt" />
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2822">
-          <caret line="169" column="25" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py" />
     <entry file="file://$PROJECT_DIR$/text/┬φ╘╞_2018(2).txt" />
     <entry file="file://$PROJECT_DIR$/text/┬φ╘╞_2017(2).txt" />
     <entry file="file://$PROJECT_DIR$/text/┬φ╘╞_2018ú¿4ú⌐.txt" />
@@ -358,44 +412,31 @@
     <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2016_5.txt" />
     <entry file="file://$PROJECT_DIR$/text/┴║╜¿╒┬_2017ú¿10ú⌐.txt" />
     <entry file="file://$PROJECT_DIR$/text/┴║╜¿╒┬_2017ú¿11ú⌐.txt" />
-    <entry file="file://$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿8ú⌐.txt">
+    <entry file="file://$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿8ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿7ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿5ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/count.txt" />
+    <entry file="file://$PROJECT_DIR$/topkword.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╒┼╙┬_2016ú¿3ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╒┼╙┬_2013ú¿2ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╒┼╙┬_2013ú¿5ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╒┼╙┬_2014ú¿5ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╒┼╙┬_2018ú¿3ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╞δ╧≥╢½_2013ú¿3ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╞δ╧≥╢½_2016ú¿4ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╞δ╧≥╢½_2013ú¿1ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╞δ╧≥╢½_2013ú¿5ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/═⌡╨╦_2016ú¿1ú⌐.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="519">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿7ú⌐.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿5ú⌐.txt">
+    <entry file="file://$PROJECT_DIR$/text/═⌡╨╦_2016ú¿5ú⌐.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/count.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysetext.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#20#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topkword.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
+        <state relative-caret-position="744">
+          <caret line="103" column="39" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -408,17 +449,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stopwords.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
+        <state relative-caret-position="594">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2014ú¿1ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2014ú¿4ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/┴⌡╟┐╢½_2016ú¿7ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysetext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/segment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
+        <state relative-caret-position="198">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="e#21#41#0" expanded="true" />
+            <marker date="1540224205609" expanded="true" signature="328:329" ph="..." />
+            <marker date="1540224205609" expanded="true" signature="328:331" ph="..." />
           </folding>
         </state>
       </provider>
