@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="325d83be-e0f7-459b-9499-5b815e7a8875" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysetext.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysetext.py" afterDir="false" />
@@ -38,6 +39,9 @@
       <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2018ú¿1ú⌐.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2018ú¿2ú⌐.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2018ú¿3ú⌐.txt" beforeDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/segment.py" beforeDir="false" afterPath="$PROJECT_DIR$/segment.py" afterDir="false" />
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -125,13 +129,23 @@
     <session id="-431194585">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+<<<<<<< HEAD
           <entry key="project.open.time.0" value="1" />
           <entry key="project.opened" value="1" />
+=======
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="py" value="1" />
+<<<<<<< HEAD
           <entry key="txt" value="7" />
           <entry key="─¬╠∞╚½_2013" value="1" />
           <entry key="─¬╠∞╚½_2013_1" value="1" />
@@ -173,16 +187,24 @@
           <entry key="╔≥╤╟_2017" value="1" />
           <entry key="╔≥╤╟_2017_1" value="1" />
           <entry key="╔≥╤╟_2018" value="1" />
+=======
+          <entry key="txt" value="14" />
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+<<<<<<< HEAD
           <entry key="PLAIN_TEXT" value="48" />
+=======
+          <entry key="PLAIN_TEXT" value="14" />
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
           <entry key="Python" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="py" value="102" />
           <entry key="txt" value="47" />
           <entry key="─¬╠∞╚½_2013" value="8" />
@@ -196,16 +218,29 @@
           <entry key="╔≥╤╟_2013_2" value="1" />
           <entry key="╔≥╤╟_2013_3" value="2" />
           <entry key="╔≥╤╟_2015_1" value="7" />
+=======
+          <entry key="py" value="1492" />
+          <entry key="txt" value="5" />
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+<<<<<<< HEAD
           <entry key="PLAIN_TEXT" value="107" />
           <entry key="Python" value="102" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
+=======
+          <entry key="PLAIN_TEXT" value="5" />
+          <entry key="Python" value="1492" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
     </session>
   </component>
   <component name="FileEditorManager">
@@ -222,14 +257,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text/└εΦñ_2013_1">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="5">
               <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="2" />
+=======
+            <state relative-caret-position="-526">
+              <caret line="100" column="36" lean-forward="true" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
+              <folding>
+                <element signature="e#21#41#0" expanded="true" />
+                <marker date="1540227380033" expanded="true" signature="394:397" ph="..." />
+              </folding>
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/text/└εΦñ_2014">
+=======
+        <entry file="file://$PROJECT_DIR$/analysetext.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.yml">
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
@@ -240,6 +297,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/text/└εΦñ_2014_1">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="289">
               <caret line="17" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="17" />
             </state>
@@ -296,6 +354,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+=======
+            <state relative-caret-position="594">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
             </state>
           </provider>
         </entry>
@@ -307,6 +369,7 @@
       <find>DL</find>
       <find>-　　</find>
       <find>?</find>
+<<<<<<< HEAD
       <find>np</find>
       <find>xlrd</find>
       <find>numpy</find>
@@ -323,10 +386,19 @@
       <find>=</find>
       <find>　　</find>
       <find>李瑜</find>
+=======
+      <find>他</find>
+      <find>np</find>
+      <find>xlrd</find>
+      <find>numpy</find>
+      <find>王兴</find>
+      <find>　　</find>
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
     </findStrings>
     <replaceStrings>
       <replace>丁磊</replace>
       <replace>李彦宏</replace>
+<<<<<<< HEAD
       <replace>：</replace>
       <replace>\n主持人：</replace>
       <replace>\n沈亚</replace>
@@ -335,6 +407,9 @@
       <replace>\n莫天全</replace>
       <replace>\n李瑜</replace>
       <replace>\n</replace>
+=======
+      <replace>\n王兴</replace>
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -357,6 +432,19 @@
         <option value="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿7ú⌐.txt" />
         <option value="$PROJECT_DIR$/stopwords.txt" />
         <option value="$PROJECT_DIR$/config.yml" />
+        <option value="$PROJECT_DIR$/text/╒┼╙┬_2016ú¿3ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╒┼╙┬_2013ú¿2ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╒┼╙┬_2014ú¿5ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╒┼╙┬_2018ú¿3ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╞δ╧≥╢½_2013ú¿3ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╞δ╧≥╢½_2016ú¿4ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╞δ╧≥╢½_2013ú¿5ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/═⌡╨╦_2016ú¿5ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/═⌡╨╦_2016ú¿1ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/└ε╤σ║Ω_2014ú¿1ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/└ε╤σ║Ω_2014ú¿4ú⌐.txt" />
+        <option value="$PROJECT_DIR$/analysetext.py" />
+        <option value="$PROJECT_DIR$/text/┴⌡╟┐╢½_2016ú¿7ú⌐.txt" />
         <option value="$PROJECT_DIR$/segment.py" />
         <option value="$PROJECT_DIR$/text/▓▄╣·╬░_2015ú¿8ú⌐.txt" />
         <option value="$PROJECT_DIR$/text/▓▄╣·╬░_2015ú¿6ú⌐.txt" />
@@ -404,10 +492,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="931" />
+    <option name="x" value="930" />
     <option name="y" value="28" />
-    <option name="width" value="921" />
-    <option name="height" value="1053" />
+    <option name="width" value="911" />
+    <option name="height" value="1051" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -421,11 +509,14 @@
             <path>
               <item name="CompanyTextMining" type="b2602c69:ProjectViewProjectNode" />
               <item name="CompanyTextMining" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
             </path>
             <path>
               <item name="CompanyTextMining" type="b2602c69:ProjectViewProjectNode" />
               <item name="CompanyTextMining" type="462c0819:PsiDirectoryNode" />
               <item name="text" type="462c0819:PsiDirectoryNode" />
+=======
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
             </path>
           </expand>
           <select />
@@ -493,10 +584,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="0" y="28" width="1863" height="1172" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17718047" />
+=======
+    <frame x="0" y="27" width="1841" height="1053" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18466704" />
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -526,6 +623,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -784,11 +882,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/1708942053.txt" />
+    <entry file="file://$PROJECT_DIR$/text/马云_2018.txt" />
+    <entry file="file://$PROJECT_DIR$/text/丁磊_2014(5).txt" />
+    <entry file="file://$PROJECT_DIR$/text/丁磊_2015(2).txt" />
+    <entry file="file://$PROJECT_DIR$/text/丁磊_2013(5).txt" />
+    <entry file="file://$PROJECT_DIR$/text/丁磊_2018(4).txt" />
+    <entry file="file://$PROJECT_DIR$/text/丁磊_2014(3).txt" />
+    <entry file="file://$PROJECT_DIR$/text/丁磊_2013(2).txt" />
+    <entry file="file://$PROJECT_DIR$/text/丁磊_2014(4).txt" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/text/┬φ╘╞_2018(2).txt" />
+    <entry file="file://$PROJECT_DIR$/text/┬φ╘╞_2017(2).txt" />
+    <entry file="file://$PROJECT_DIR$/text/┬φ╘╞_2018ú¿4ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/┬φ╘╞_2018ú¿5ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2017.txt" />
+    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2018_3.txt" />
+    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2016_4.txt" />
+    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2017_9.txt" />
+    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2016_9.txt" />
+    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2016_7.txt" />
+    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2016_5.txt" />
+    <entry file="file://$PROJECT_DIR$/text/┴║╜¿╒┬_2017ú¿10ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/┴║╜¿╒┬_2017ú¿11ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿8ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿7ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿5ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/count.txt" />
+    <entry file="file://$PROJECT_DIR$/topkword.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╒┼╙┬_2016ú¿3ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╒┼╙┬_2013ú¿2ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╒┼╙┬_2013ú¿5ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╒┼╙┬_2014ú¿5ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╒┼╙┬_2018ú¿3ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╞δ╧≥╢½_2013ú¿3ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╞δ╧≥╢½_2016ú¿4ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╞δ╧≥╢½_2013ú¿1ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/╞δ╧≥╢½_2013ú¿5ú⌐.txt" />
+    <entry file="file://$PROJECT_DIR$/text/═⌡╨╦_2016ú¿1ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="519">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/analysetext.py">
+    <entry file="file://$PROJECT_DIR$/text/═⌡╨╦_2016ú¿5ú⌐.txt">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="103" column="39" selection-start-line="103" selection-start-column="39" selection-end-line="103" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="18" selection-start-line="5" selection-end-line="5" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stopwords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2014ú¿1ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="559">
           <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
           <folding>
@@ -815,11 +978,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="17" />
+=======
+        <state relative-caret-position="220">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2014ú¿4ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/┴⌡╟┐╢½_2016ú¿7ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysetext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/text/└εΦñ_2014_2">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="204">
           <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
@@ -864,6 +1053,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+=======
+        <state relative-caret-position="-526">
+          <caret line="100" column="36" lean-forward="true" selection-start-line="100" selection-start-column="36" selection-end-line="100" selection-end-column="36" />
+          <folding>
+            <element signature="e#21#41#0" expanded="true" />
+            <marker date="1540227380033" expanded="true" signature="394:397" ph="..." />
+          </folding>
+>>>>>>> 926224b6e1f7b370d89ac3d9c968b71b30c5f1ce
         </state>
       </provider>
     </entry>

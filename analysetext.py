@@ -18,7 +18,9 @@ if __name__ == "__main__":
         print(txt)
         count = 0
         # name  = re.search(pattern,txt).group(1)
+
         uname = u'李瑜'
+
         year  = re.search(pattern,txt).group(1)
         print(year)
         file  = codecs.open(os.path.join(text_path,txt),encoding='utf-8').read()
