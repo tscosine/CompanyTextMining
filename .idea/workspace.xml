@@ -3,43 +3,41 @@
   <component name="ChangeListManager">
     <list default="true" id="325d83be-e0f7-459b-9499-5b815e7a8875" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/analysetext.py" beforeDir="false" afterPath="$PROJECT_DIR$/analysetext.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/count.txt" beforeDir="false" afterPath="$PROJECT_DIR$/count.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/segment.py" beforeDir="false" afterPath="$PROJECT_DIR$/segment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stopwords.txt" beforeDir="false" afterPath="$PROJECT_DIR$/stopwords.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2014.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2015.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_10.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_11.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_8.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2017_9.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2018.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2018_1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2018_2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/text/└ε╤σ║Ω_2018_3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/topkword.txt" beforeDir="false" afterPath="$PROJECT_DIR$/topkword.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿1ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿2ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿3ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿4ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2013ú¿5ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014(3).txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿1ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿2ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿4ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿5ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿6ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿7ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿8ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿9ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿1ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿2ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿3ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿4ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿5ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2015ú¿6ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿1ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿2ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿3ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿4ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿5ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2016ú¿6ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2017ú¿1ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2017ú¿2ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2017ú¿3ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2018ú¿1ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2018ú¿2ú⌐.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/text/└╫╛ⁿ_2018ú¿3ú⌐.txt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -124,35 +122,180 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.js.language.service.starts" />
     </session>
+    <session id="-431194585">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+          <entry key="txt" value="7" />
+          <entry key="─¬╠∞╚½_2013" value="1" />
+          <entry key="─¬╠∞╚½_2013_1" value="1" />
+          <entry key="─¬╠∞╚½_2014" value="1" />
+          <entry key="─¬╠∞╚½_2014_1" value="1" />
+          <entry key="─¬╠∞╚½_2014_2" value="1" />
+          <entry key="─¬╠∞╚½_2015" value="1" />
+          <entry key="─¬╠∞╚½_2015_1" value="1" />
+          <entry key="─¬╠∞╚½_2015_4" value="1" />
+          <entry key="─¬╠∞╚½_2015_5" value="1" />
+          <entry key="─¬╠∞╚½_2015_6" value="2" />
+          <entry key="─¬╠∞╚½_2015_7" value="1" />
+          <entry key="─¬╠∞╚½_2015_8" value="1" />
+          <entry key="─¬╠∞╚½_2016_1" value="1" />
+          <entry key="─¬╠∞╚½_2016_3" value="1" />
+          <entry key="─¬╠∞╚½_2018_1" value="1" />
+          <entry key="─¬╠∞╚½_2018_5" value="1" />
+          <entry key="─¬╠∞╚½_2018_6" value="1" />
+          <entry key="─¬╠∞╚½_2018_7" value="1" />
+          <entry key="│┬╠∞╟┼_2014" value="1" />
+          <entry key="│┬╠∞╟┼_2014_1" value="1" />
+          <entry key="│┬╠∞╟┼_2017" value="1" />
+          <entry key="│┬╠∞╟┼_2017_5" value="1" />
+          <entry key="│┬╠∞╟┼_2017_6" value="1" />
+          <entry key="│┬╠∞╟┼_2018_2" value="1" />
+          <entry key="└εΦñ_2013" value="1" />
+          <entry key="└εΦñ_2013_1" value="1" />
+          <entry key="└εΦñ_2014" value="1" />
+          <entry key="└εΦñ_2014_1" value="1" />
+          <entry key="└εΦñ_2014_2" value="1" />
+          <entry key="└εΦñ_2015" value="1" />
+          <entry key="└εΦñ_2015_1" value="1" />
+          <entry key="└εΦñ_2015_2" value="1" />
+          <entry key="└εΦñ_2015_3" value="1" />
+          <entry key="└εΦñ_2015_4" value="1" />
+          <entry key="╔≥╤╟_2013_2" value="1" />
+          <entry key="╔≥╤╟_2013_3" value="1" />
+          <entry key="╔≥╤╟_2015_1" value="1" />
+          <entry key="╔≥╤╟_2017" value="1" />
+          <entry key="╔≥╤╟_2017_1" value="1" />
+          <entry key="╔≥╤╟_2018" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="PLAIN_TEXT" value="48" />
+          <entry key="Python" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="102" />
+          <entry key="txt" value="47" />
+          <entry key="─¬╠∞╚½_2013" value="8" />
+          <entry key="─¬╠∞╚½_2015_7" value="3" />
+          <entry key="─¬╠∞╚½_2018_1" value="1" />
+          <entry key="─¬╠∞╚½_2018_7" value="1" />
+          <entry key="│┬╠∞╟┼_2017_5" value="8" />
+          <entry key="│┬╠∞╟┼_2018_2" value="2" />
+          <entry key="└εΦñ_2013" value="2" />
+          <entry key="└εΦñ_2013_1" value="25" />
+          <entry key="╔≥╤╟_2013_2" value="1" />
+          <entry key="╔≥╤╟_2013_3" value="2" />
+          <entry key="╔≥╤╟_2015_1" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="107" />
+          <entry key="Python" value="102" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text/└εΦñ_2013">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="3" selection-start-column="3" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text/└εΦñ_2013_1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5">
+              <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text/└εΦñ_2014">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text/└εΦñ_2014_1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text/└εΦñ_2014_2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text/└εΦñ_2015">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text/└εΦñ_2015_1">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text/└εΦñ_2015_2">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/text/└εΦñ_2015_3">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/segment.py">
+        <entry file="file://$PROJECT_DIR$/text/└εΦñ_2015_4">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
-              <folding>
-                <element signature="e#21#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="18" selection-start-line="5" selection-end-line="5" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/stopwords.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-4">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="255">
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -164,15 +307,34 @@
       <find>DL</find>
       <find>-　　</find>
       <find>?</find>
-      <find>他</find>
-      <find>　　</find>
       <find>np</find>
       <find>xlrd</find>
       <find>numpy</find>
+      <find>曹国伟</find>
+      <find>曹国伟：</find>
+      <find>南都：</find>
+      <find>主持人：</find>
+      <find>沈亚</find>
+      <find>他</find>
+      <find>陈</find>
+      <find>陈天桥</find>
+      <find>莫总</find>
+      <find>莫天全</find>
+      <find>=</find>
+      <find>　　</find>
+      <find>李瑜</find>
     </findStrings>
     <replaceStrings>
       <replace>丁磊</replace>
       <replace>李彦宏</replace>
+      <replace>：</replace>
+      <replace>\n主持人：</replace>
+      <replace>\n沈亚</replace>
+      <replace>陈天桥</replace>
+      <replace>莫天全</replace>
+      <replace>\n莫天全</replace>
+      <replace>\n李瑜</replace>
+      <replace>\n</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -181,11 +343,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/text/丁磊_2014(5).txt" />
-        <option value="$PROJECT_DIR$/text/丁磊_2015(2).txt" />
-        <option value="$PROJECT_DIR$/text/丁磊_2014(4).txt" />
-        <option value="$PROJECT_DIR$/text/┬φ╘╞_2017(2).txt" />
         <option value="$PROJECT_DIR$/text/┬φ╘╞_2018(2).txt" />
         <option value="$PROJECT_DIR$/text/└ε╤σ║Ω_2017.txt" />
         <option value="$PROJECT_DIR$/text/└ε╤σ║Ω_2018_3.txt" />
@@ -195,13 +352,48 @@
         <option value="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_9.txt" />
         <option value="$PROJECT_DIR$/text/└ε╤σ║Ω_2016_7.txt" />
         <option value="$PROJECT_DIR$/text/┴║╜¿╒┬_2017ú¿11ú⌐.txt" />
-        <option value="$PROJECT_DIR$/analysetext.py" />
         <option value="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿5ú⌐.txt" />
         <option value="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿8ú⌐.txt" />
         <option value="$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿7ú⌐.txt" />
         <option value="$PROJECT_DIR$/stopwords.txt" />
         <option value="$PROJECT_DIR$/config.yml" />
         <option value="$PROJECT_DIR$/segment.py" />
+        <option value="$PROJECT_DIR$/text/▓▄╣·╬░_2015ú¿8ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/▓▄╣·╬░_2015ú¿6ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/═⌡╓╛╢½_2015ú¿13ú⌐.txt" />
+        <option value="$PROJECT_DIR$/text/╔≥╤╟_2017" />
+        <option value="$PROJECT_DIR$/text/╔≥╤╟_2017_1" />
+        <option value="$PROJECT_DIR$/text/╔≥╤╟_2015_1" />
+        <option value="$PROJECT_DIR$/text/╔≥╤╟_2013_2" />
+        <option value="$PROJECT_DIR$/text/╔≥╤╟_2013_3" />
+        <option value="$PROJECT_DIR$/text/│┬╠∞╟┼_2017_5" />
+        <option value="$PROJECT_DIR$/text/│┬╠∞╟┼_2018_2" />
+        <option value="$PROJECT_DIR$/text/│┬╠∞╟┼_2014_1" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2013_1" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2015_1" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2013" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2014" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2015_8" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2014_1" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2018_7" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2018_5" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2015_7" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2015_5" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2016_1" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2018_1" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2015_6" />
+        <option value="$PROJECT_DIR$/text/─¬╠∞╚½_2016_3" />
+        <option value="$PROJECT_DIR$/analysetext.py" />
+        <option value="$PROJECT_DIR$/text/└εΦñ_2013_1" />
+        <option value="$PROJECT_DIR$/text/└εΦñ_2013" />
+        <option value="$PROJECT_DIR$/text/└εΦñ_2014" />
+        <option value="$PROJECT_DIR$/text/└εΦñ_2014_1" />
+        <option value="$PROJECT_DIR$/text/└εΦñ_2014_2" />
+        <option value="$PROJECT_DIR$/text/└εΦñ_2015" />
+        <option value="$PROJECT_DIR$/text/└εΦñ_2015_1" />
+        <option value="$PROJECT_DIR$/text/└εΦñ_2015_2" />
+        <option value="$PROJECT_DIR$/text/└εΦñ_2015_3" />
+        <option value="$PROJECT_DIR$/text/└εΦñ_2015_4" />
       </list>
     </option>
   </component>
@@ -227,8 +419,13 @@
         <subPane>
           <expand>
             <path>
-              <item name="weibocrawler" type="b2602c69:ProjectViewProjectNode" />
-              <item name="weibocrawler" type="462c0819:PsiDirectoryNode" />
+              <item name="CompanyTextMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanyTextMining" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CompanyTextMining" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CompanyTextMining" type="462c0819:PsiDirectoryNode" />
+              <item name="text" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -296,10 +493,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1841" height="1053" extended-state="6" />
+    <frame x="0" y="28" width="1863" height="1172" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17571348" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17718047" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -329,97 +526,344 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1708942053.txt" />
-    <entry file="file://$PROJECT_DIR$/text/马云_2018.txt" />
-    <entry file="file://$PROJECT_DIR$/text/丁磊_2014(5).txt" />
-    <entry file="file://$PROJECT_DIR$/text/丁磊_2015(2).txt" />
-    <entry file="file://$PROJECT_DIR$/text/丁磊_2013(5).txt" />
-    <entry file="file://$PROJECT_DIR$/text/丁磊_2018(4).txt" />
-    <entry file="file://$PROJECT_DIR$/text/丁磊_2014(3).txt" />
-    <entry file="file://$PROJECT_DIR$/text/丁磊_2013(2).txt" />
-    <entry file="file://$PROJECT_DIR$/text/丁磊_2014(4).txt" />
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2822">
-          <caret line="169" column="25" selection-start-line="169" selection-start-column="25" selection-end-line="169" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/┬φ╘╞_2018(2).txt" />
-    <entry file="file://$PROJECT_DIR$/text/┬φ╘╞_2017(2).txt" />
-    <entry file="file://$PROJECT_DIR$/text/┬φ╘╞_2018ú¿4ú⌐.txt" />
-    <entry file="file://$PROJECT_DIR$/text/┬φ╘╞_2018ú¿5ú⌐.txt" />
-    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2017.txt" />
-    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2018_3.txt" />
-    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2016_4.txt" />
-    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2017_9.txt" />
-    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2016_9.txt" />
-    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2016_7.txt" />
-    <entry file="file://$PROJECT_DIR$/text/└ε╤σ║Ω_2016_5.txt" />
-    <entry file="file://$PROJECT_DIR$/text/┴║╜¿╒┬_2017ú¿10ú⌐.txt" />
-    <entry file="file://$PROJECT_DIR$/text/┴║╜¿╒┬_2017ú¿11ú⌐.txt" />
-    <entry file="file://$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿8ú⌐.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿7ú⌐.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/text/└╫╛ⁿ_2014ú¿5ú⌐.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/count.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="8" lean-forward="true" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/analysetext.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="18" column="17" lean-forward="true" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-          <folding>
-            <element signature="e#20#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/topkword.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="68" column="7" lean-forward="true" selection-start-line="68" selection-start-column="7" selection-end-line="68" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
+        <state relative-caret-position="85">
           <caret line="5" column="18" selection-start-line="5" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stopwords.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4">
+        <state relative-caret-position="459">
           <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/▓▄╣·╬░_2015ú¿8ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/▓▄╣·╬░_2015ú¿6ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/▓▄╣·╬░_2016ú¿4ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/▓▄╣·╬░_2016ú¿6ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/▓▄╣·╬░_2014ú¿3ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/▓▄╣·╬░_2014ú¿8ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/═⌡╓╛╢½_2015ú¿13ú⌐.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/segment.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="706">
-          <caret line="132" column="4" selection-start-line="132" selection-start-column="4" selection-end-line="132" selection-end-column="4" />
+        <state relative-caret-position="765">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="30" />
           <folding>
             <element signature="e#21#41#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/╔≥╤╟_2017_1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/╔≥╤╟_2015_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="3" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/╔≥╤╟_2013_2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/╔≥╤╟_2013_3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="46" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/╔≥╤╟_2018">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/╔≥╤╟_2017">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/│┬╠∞╟┼_2014">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/│┬╠∞╟┼_2017_6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/│┬╠∞╟┼_2017_5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/│┬╠∞╟┼_2018_2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/│┬╠∞╟┼_2017">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-432" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/│┬╠∞╟┼_2014_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2015_4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2014_2">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2015">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2015_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2013">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="116" selection-start-line="11" selection-start-column="116" selection-end-line="11" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2013_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2014">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2015_8">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2014_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="10" lean-forward="true" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2018_7">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2018_5">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2015_5">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2015_7">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2018_6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2016_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="3" lean-forward="true" selection-start-line="18" selection-start-column="3" selection-end-line="18" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2018_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2015_6">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="5" selection-start-line="38" selection-end-line="38" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/─¬╠∞╚½_2016_3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="3" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/analysetext.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="40" column="49" lean-forward="true" selection-start-line="40" selection-start-column="49" selection-end-line="40" selection-end-column="49" />
+          <folding>
+            <element signature="e#20#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└εΦñ_2013_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└εΦñ_2014">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└εΦñ_2014_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="16" selection-start-column="18" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└εΦñ_2014_2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└εΦñ_2015">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└εΦñ_2015_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└εΦñ_2015_2">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="2" selection-start-line="28" selection-start-column="2" selection-end-line="28" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└εΦñ_2015_3">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└εΦñ_2013">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/text/└εΦñ_2015_4">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>

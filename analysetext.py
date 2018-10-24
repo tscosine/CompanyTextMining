@@ -18,14 +18,14 @@ if __name__ == "__main__":
         print(txt)
         count = 0
         # name  = re.search(pattern,txt).group(1)
-        uname = u'雷军'
+        uname = u'李瑜'
         year  = re.search(pattern,txt).group(1)
         print(year)
-        file  = codecs.open(os.path.join(text_path,txt),encoding='GBK').read()
+        file  = codecs.open(os.path.join(text_path,txt),encoding='utf-8').read()
         flag  = False
         say_word    = u'：'+'|'+':'+'|'+u'指出'+'|'+u'表示'+'|'+u'认为'+\
                       '|'+u'说'+'|'+u'告诉'+'|'+u'提到'+'|'+u'坦言'+\
-                      '|'+u'宣布'+'|'+u'看来'+'|'+u'直言'
+                      '|'+u'宣布'+'|'+u'看来'+'|'+u'直言'+'|'+u'预测'+'|'+u'暗示'+'|'+u'以为'+'|'+u'说道'+'|'+u'强调'+'|'+u'看来'
         push_pattern= re.compile('\s*'+uname+'('+say_word+')')
         pop_pattern = re.compile('^.{0,10}'+u'：')
         for para in file.split('\n'):

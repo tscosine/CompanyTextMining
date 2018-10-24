@@ -54,7 +54,7 @@ class PersonalQouta:
 
 class DataSet:
 	target_name = [u'马化腾', u'马云', u'李彦宏', u'丁磊', u'张朝阳',
-				   u'周鸿祎', u'刘强东', u'王志东', u'梁建章', u'张近东',
+				   u'周鸿祎', u'刘强东', u'王志东', u'梁建章', u'张近东',u'曹国伟',
 				   u'王兴', u'沈亚', u'莫天全', u'雷军', u'陈天桥', u'李瑜',u'张勇']
 	def __init__(self):
 		self.dataset = {}
